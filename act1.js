@@ -20,8 +20,8 @@ console.log(usuarios.lenght)
 
 function sumarPuntuacion(usuarios){
   for(let i = 0;i<2;i++){
-    if(usuario1.puntuacion = 10){
-      usuario1.nivel + 1
+    if(usuarios[i].puntuacion>10){
+      usuarios[i].nivel + 1
     }
   }
 }
